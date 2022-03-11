@@ -32,7 +32,7 @@ class userInfo
 }
 
   $logger_obj = new logger();
-- $obj = new userInfo($logger_obj); // pass the logger object in userInfo cunstructor
++ $obj = new userInfo($logger_obj); // pass the logger object in userInfo cunstructor
   $obj->createUser();
   $obj->updateUser();
 
